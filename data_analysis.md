@@ -1,7 +1,7 @@
 # 数据分析师岗位需求分析
 
 > 人工采集 170 条招聘信息 → Power Query 清洗成 159 条结构化数据 → Tableau 交互看板。  
-> 一句话结论：**这个岗位中位月薪 8,000 元，SQL 是硬门槛，13 薪只有约一成公司给。**
+> 结论：**这个岗位中位月薪 8,000 元，SQL 是硬门槛，13 薪只有约一成公司给。**
 
 ---
 
@@ -16,7 +16,7 @@
 
 
 
-## 二、数据清洗
+## 二、数据清洗（相关数据在压缩文件）
 
 原始数据是人能看懂、机器算不了的招聘文本，做了六处处理：
 
@@ -67,14 +67,19 @@
 ## 五、看板
 
 **整体概览** —— 行业 × 省份需求分布
+<img width="822" height="295" alt="image" src="https://github.com/user-attachments/assets/28396143-b0e4-4562-b59d-8692268a52d4" />
 
 **岗位明细** —— 省份 × 行业 × 学历矩阵，支持筛选
+<img width="827" height="288" alt="image" src="https://github.com/user-attachments/assets/67ba6314-71ba-402f-a974-bd0862bd3b52" />
 
 **要求侧** —— 学历、技能、专业三个维度
+<img width="827" height="293" alt="image" src="https://github.com/user-attachments/assets/3538a0e3-3e83-4d1e-839d-b0e0edad9384" />
 
 **薪资侧** —— 行业均值与学历-13薪交叉
+<img width="830" height="265" alt="image" src="https://github.com/user-attachments/assets/1d8c433e-b259-47cc-b952-e34578a23306" />
 
-**地理维度** —— 各省平均薪资：
+**地理维度** —— 各省平均薪资
+<img width="829" height="322" alt="image" src="https://github.com/user-attachments/assets/af87306e-f003-47fd-9a24-7879e84dd835" />
 
 在线交互版：<https://public.tableau.com/shared/GPT3HRXFJ?:display_count=n&:origin=viz_share_link>
 
